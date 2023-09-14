@@ -1,0 +1,248 @@
+:root {
+  --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+img {
+  width: 100px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+p.headline {
+  font-weight: bolder;
+}
+p.midline {
+  font-size: smaller;
+  font-weight: bold;
+}
+h6 {
+  font-style: italic;
+}
+body.home {
+  background-image: url(images/f1Background.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body.driversPage {
+  background-image: url(images/drivers/image.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body.teamsPage {
+  background-image: url(images/teamsPage.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+  border-top: 2px solid red;
+}
+p.footer {
+  color: white;
+}
+hr {
+  size: 8;
+}
+header {
+  align-items: center;
+  text-align: right;
+  border-bottom: 2px solid #fc0303;
+  padding: 10px;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: var(--font-family);
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.header-buttons {
+  text-align: right;
+}
+
+.button:hover {
+  background-color: white;
+  color: gray;
+}
+
+.container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 80vh;
+  max-height: 800px;
+}
+.column {
+  padding: 20px;
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+.column1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  flex: 2;
+  border-radius: 50px;
+}
+.column2 {
+  background-color: rgb(255, 63, 63, 0.4);
+  flex: 1;
+  border-radius: 50px;
+  font-family: var(--font-family);
+}
+.column2 h2 {
+  color: white;
+}
+
+.container-form {
+  border: none;
+}
+
+.container-teams {
+  padding: 20px;
+  background-color: rgb(255, 255, 255, 0.6);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  justify-content: space-between;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+.teams {
+  float: right;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid red;
+  border-radius: 20px;
+  text-align: center;
+}
+.container-teams hr {
+  border: none;
+  border-top: 2px solid black;
+  margin: 0px;
+  width: 100%;
+}
+
+.container-driver {
+  background-color: rgb(255, 255, 255, 0.6);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 2px solid red;
+  border-radius: 50px;
+  padding: 20px;
+  min-height: 70vh;
+}
+
+.drivers {
+  float: right;
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid red;
+  border-radius: 20px;
+  text-align: center;
+}
+.h1 {
+  color: white;
+  font-family: var(--font-family);
+}
+
+.desc {
+  font-family: var(--font-family);
+  font-size: large;
+  font-weight: bolder;
+  margin: 45px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 5px;
+  color: rgb(244, 234, 234);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.dual-color-footer {
+  background: linear-gradient(to bottom, black, red);
+  height: 60px;
+  font-family: var(--font-family);
+  color: white;
+  font-size: 20px;
+}
+.container-homepage {
+  border: 1px solid red;
+  border-radius: 20px;
+}
+.container-homepageMain {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+}
+video {
+  width: 90%;
+  height: 90%;
+  display: block;
+  border-radius: 20px;
+  align-self: center;
+}
+table {
+  width: 80%;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: bold;
+  border-collapse: collapse;
+}
+th {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+td {
+  border: 1px;
+  padding: 10px;
+}
+.container-homepage img {
+  height: auto;
+  width: auto;
+}
+.container-homepage p {
+  font-family: var(--font-family);
+  font-weight: bolder;
+  padding: 10px;
+
+  justify-content: center;
+}

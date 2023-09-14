@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Racing</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="home">
+    <header>
+      <img src="images/f1.jpg" alt="F1 logo" />
+      <div class="header-button">
+        <a href="driversPage.html"><button class="button">Drivers</button></a>
+        <a href="teamsPage.html"><button class="button">Teams</button></a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="column column1">
+        <div class="container-homepageMain">
+          <div class="container-homepage">
+            <p>News</p>
+            <img src="images/news.jpg" alt="" />
+            <hr />
+            <h4>
+              <a href=""
+                >F1 News: Sergio Perez Retaliates To "Racist" Helmut
+                MarkoComments</a
+              >
+            </h4>
+          </div>
+
+          <div class="container-homepage">
+            <p>F1 Calendar</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>17th Sept</td>
+                  <td>Singapore</td>
+                </tr>
+                <tr>
+                  <td>24th Sept</td>
+                  <td>Japan</td>
+                </tr>
+                <tr>
+                  <td>8th Oct</td>
+                  <td>Qatar</td>
+                </tr>
+                <tr>
+                  <td>22nd Oct</td>
+                  <td>United States</td>
+                </tr>
+                <tr>
+                  <td>29th Oct</td>
+                  <td>Mexico</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="container-homepage">
+            <div class="videoPlayer">
+              <p>Video</p>
+              <video src="videos/f1Video.mp4"></video>
+            </div>
+          </div>
+
+          <div class="container-homepage">
+            <p>Current Driver standings</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>POS</th>
+                  <th>Driver</th>
+                  <th>PTS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Max Verstappen</td>
+                  <td>364</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Sergio Perez</td>
+                  <td>219</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Fernando Alonso</td>
+                  <td>170</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Lewis Hamilton</td>
+                  <td>164</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Carlos Sainz</td>
+                  <td>117</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="column column2">
+        <h2>Sign In or Sign Up !</h2>
+        <div class="container-form">
+          <form action="signIn">
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <br />
+              <input type="text" id="username" name="username" />
+            </div>
+            <hr />
+            <div class="form-group">
+              <label for="password">Password</label>
+              <br />
+              <input type="password" id="password" name="password" />
+            </div>
+            <br />
+            <p>Forgot your password ? <a href="">click here</a></p>
+            <br />
+            <div class="form-group">
+              <button class="button">Submit</button>
+              <button class="button">Create New Account</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="dual-color-footer">
+      <p>Designed by Akhil</p>
+    </footer>
+  </body>
+</html>
